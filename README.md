@@ -1,7 +1,6 @@
-# Entity Framework not return a record by DateTime when you know it exists.
+# Care when using SQL DateTime in .NET Projects with Entity Framework
 
-I saw this weird behaviour in .NET when querying the database based on a .NET DateTime property which Entity Framework was mapping to a SQL DateTime.
-Here is the database (CreatedDates & Modified will be different for you if run application uses DateTime.Now)
+I saw this weird behaviour in .NET when querying the database based on a .NET DateTime property which Entity Framework was mapping to a SQL DateTime. Here is the database (CreatedDates & Modified will be different for you if run application uses DateTime.Now)
 
 # Database 
 # Blogs
