@@ -10,6 +10,7 @@ namespace DateTimeInSQLAndDotNet
 {
     public class DatabaseContext : DbContext
     {
+        //Change Connection string to your own connection string.
         public DatabaseContext() : base("Server=.;Database=DateTimeInSQLAndDotNet;Trusted_Connection=True;")
         {
             Database.SetInitializer(new TestDataInitializer());
