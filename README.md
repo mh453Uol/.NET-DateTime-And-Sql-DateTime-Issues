@@ -63,6 +63,12 @@ Code looks messy having option of a.CreatedDate == b.CreateDate reads better.
 
 All in all it’s best to use SQL datetime2 it has more precision.
 
+# Setup example locally
+1. Clone repo.
+2. Open in visual studio.
+3. Open package manager and type update-database this will create the database and add dummy data. Change connection string in Context if you are having issues.
+4. Run 
+
 Thanks!
 	
 
